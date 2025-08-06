@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ClearView - Nettoyage de vitres Bruxelles",
+  title: "Angevo - Nettoyage de vitres Bruxelles",
   description: "Service professionnel de nettoyage de vitres et entretien de châssis à Bruxelles",
 };
 

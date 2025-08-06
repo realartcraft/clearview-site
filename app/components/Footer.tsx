@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Colonne 1 - À propos */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">ClearView</h3>
+            <h3 className="text-lg font-semibold mb-4">Angevo</h3>
             <p className="text-gray-300">
               Service professionnel de nettoyage de vitres et entretien de châssis à Bruxelles.
             </p>
@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-gray-300">
-              Email: contact@clearview.be<br />
+              Email: contact@angevo.com<br />
               Tél: +32 123 45 67 89<br />
               Bruxelles, Belgique
             </p>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>© 2024 ClearView. Tous droits réservés.</p>
+          <p>© 2024 Angevo. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

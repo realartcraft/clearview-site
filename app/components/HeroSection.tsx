@@ -12,7 +12,7 @@ export default function HeroSection() {
   }
 
   return (
-    <div className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-[90vh] flex items-center justify-center overflow-hidden animate-fade-in">
       {/* Image de fond avec overlay */}
       <div className="absolute inset-0 z-0">
         <div 
@@ -28,7 +28,7 @@ export default function HeroSection() {
       {/* Contenu */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         {/* Badge de confiance */}
-        <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-fadeIn">
+        <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-fade-in">
           <svg className="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
           </svg>
@@ -36,7 +36,7 @@ export default function HeroSection() {
         </div>
 
         {/* Titre principal avec animation */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up">
           Des vitres <span className="text-blue-400">impeccables</span>
           <br />
           en 24 heures
@@ -69,7 +69,7 @@ export default function HeroSection() {
         </form>
 
         {/* Points de confiance */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto animate-fadeIn animation-delay-600">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto animate-fade-in animation-delay-600">
           <div className="flex flex-col items-center">
             <div className="text-3xl font-bold mb-1">24h</div>
             <div className="text-sm text-gray-300">Intervention rapide</div>

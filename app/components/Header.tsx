@@ -25,6 +25,9 @@ export default function Header() {
             <Link href="/contact" className="nav-link hover:text-blue-600">
               Contact
             </Link>
+            <Link href="/devenir-partenaire" className="nav-link hover:text-blue-600">
+  Devenir partenaire
+</Link>
           </div>
           
           {/* Bouton Menu Mobile avec animation */}
@@ -72,6 +75,13 @@ export default function Header() {
           >
             Contact
           </Link>
+          <Link 
+  href="/devenir-partenaire" 
+  className="block py-2 px-4 hover:bg-gray-100 rounded transition-smooth"
+  onClick={() => setIsMenuOpen(false)}
+>
+  Devenir partenaire
+</Link>
         </div>
       </nav>
     </header>

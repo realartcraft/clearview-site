@@ -16,10 +16,7 @@ export default function DevenirPartenaire() {
 
   const services = [
     'Nettoyage de vitres',
-    'Entretien de châssis',
-    'Pose de volets',
-    'Réparation de fenêtres',
-    'Nettoyage de façades',
+    'Rénovation de châssis',
     'Autres services'
   ]
 
